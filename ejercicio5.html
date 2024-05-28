@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        input:valid {
+        color: green;
+        }
+
+        input:invalid {
+        color: red;
+        }
+    </style>
+</head>
+<form>
+    <input type="text" name="number" placeholder="Enter 9 digits of your phone" pattern="(\d+){9}" required />
+    <input type="Submit"/>
+  </form>  
+</body>
+</html>
